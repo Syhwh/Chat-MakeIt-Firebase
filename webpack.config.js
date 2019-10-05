@@ -1,6 +1,6 @@
 const path = require ('path');
 const HtmlWebpackPlugin = require ('html-webpack-plugin');
-
+// const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
 module.exports={
     entry: path.join(__dirname, "src/app.js"),
     output: { path:__dirname+ "/build",
@@ -34,6 +34,9 @@ module.exports={
     plugins:[
         new HtmlWebpackPlugin({
             template: './src/index.html'
-        })
+        }),
+        // new MomentLocalesPlugin({
+        //     localesToKeep: ['es-us', 'ru'],
+        // }),
     ]
 }
