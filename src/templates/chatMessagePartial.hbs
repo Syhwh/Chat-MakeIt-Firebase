@@ -1,0 +1,16 @@
+
+{{#each data}}
+<div class="message">
+    <img id="avatar" class="avatar-md" src={{avatar}} title="chat" alt="avatar" >
+    <div class="text-main">         
+        <div class="text-group">
+            <div class="text">
+                <p id="message-recieved">{{message}}</p>
+            </div>
+        </div>
+        <span id="message-recieved-date">{{createAt}}</span>      
+    </div>
+</div>
+ {{/each}}
+
+

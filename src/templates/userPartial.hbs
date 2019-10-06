@@ -1,0 +1,12 @@
+
+{{#each users}}
+<a href="#" class=" all unread single" id="list-chat-list" data-toggle="list" role="tab"
+      aria-selected="false" >
+      <img class="avatar-md" data-toggle="tooltip" data-placement="top"  alt="avatar" src={{avatar}}>
+      <div class="status online"></div>
+      <div class="data">
+            <h5>{{name}}</h5>
+            <span>{{createAt}}</span>
+      </div>
+</a>
+{{/each}}
