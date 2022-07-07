@@ -42,7 +42,7 @@
   "dependencies": {
     "firebase": "^7.1.0",
     "firebase-admin": "^8.6.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "themify-icons": "^1.0.0"
   }
 }
